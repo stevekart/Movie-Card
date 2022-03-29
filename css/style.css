@@ -1,0 +1,106 @@
+*,
+*::after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 1.62rem;
+  background: black;
+}
+
+.movie_card {
+  margin: 10rem auto;
+  border-radius: 10px;
+  background: black;
+  width: 80rem;
+  height: 33rem;
+  overflow: hidden;
+}
+.movie_card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.movie_social ul li {
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+  color: rgba(211, 211, 211, 0.644);
+}
+
+.movie_card .info_section .movie_social {
+  position: absolute;
+  bottom: -1rem;
+}
+
+.movie_card .info_section .movie_social .social_links {
+  color: white;
+}
+
+.img-stranger_things {
+  height: 16rem;
+  width: auto;
+  float: left;
+  border-radius: 4px;
+  padding-right: 1.5rem;
+  margin-left: 0.8rem;
+}
+
+.movie_card .info_section .movie_header {
+  color: white;
+  padding-top: 1rem;
+}
+
+.movie_card .info_section .movie_header h4 {
+  color: lightblue;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.movie_card .info_section .movie_header h1 {
+  font-weight: 400;
+}
+.movie_card .info_section .movie_header .type {
+  display: inline-block;
+  border: 2px solid rgba(240, 238, 238, 0.144);
+  border-radius: 7px;
+  padding: 0.4rem;
+}
+
+.movie_card .info_section .movie_header .genre {
+  display: inline-block;
+  padding: 0 0.6rem;
+}
+
+.movie_card .info_section .movie_desc {
+  margin: 2rem 0.7rem;
+  width: 45%;
+  padding-top: 0.1rem;
+}
+.movie_card .info_section .movie_desc .text {
+  color: lightgrey;
+  line-height: 1.4;
+}
+.movie_social ul li {
+  padding: 0.8rem;
+}
+#stranger_things {
+  background: url(../images/strangerthings.jpg);
+}
+.info_section {
+  background: linear-gradient(to right, #141413 50%, transparent 100%);
+  height: 100%;
+}
+
+#stranger_things {
+  box-shadow: 0px 0px 150px -45px rgba(255, 51, 0, 0.527);
+}
+#stranger_things:hover {
+  box-shadow: 0px 0px 140px -55px rgba(255, 51, 0, 0.521);
+}
